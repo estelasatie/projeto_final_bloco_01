@@ -9,8 +9,6 @@ public class Menu {
 		Scanner ler = new Scanner(System.in);
 
 		int opcao, produto;
-		float valor;
-		;
 
 		System.out.println("                                  ");
 		System.out.println("AUTHENTIC FASHION - vestuário ");
@@ -23,9 +21,11 @@ public class Menu {
 		System.out.println("3 - Atualizar produto      ");
 		System.out.println("4 - Deletar produto        ");
 		System.out.println("5 - Sair                   ");
+		
 		opcao = ler.nextInt();
 
 		switch (opcao) {
+		
 		case 1:
 			System.out.println("Lista de produtos da sua loja: ");
 
