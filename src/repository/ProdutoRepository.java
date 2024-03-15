@@ -1,13 +1,13 @@
 package repository;
-import model_repository.Produto;
+import produto_model.Produto;
 public interface ProdutoRepository {
 	
 	//CRUD da loja
 	
-	public void listarProdutos(String nome);
-	public void adicionar(Produto ProdutoTipo);
-	public void atualizar(Produto ProdutoTipo);
-	public void deletar(Produto ProdutoTipo);
+	public void procurarItem(int indice);
+	public void listarTodos();
+	public void cadastrar(Produto produto);
+	public void atualizar(Produto produto);
+	public void deletar(int indice);
 	
-
 }
